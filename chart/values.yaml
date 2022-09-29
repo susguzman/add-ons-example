@@ -1,0 +1,13 @@
+# Global Values
+repoUrl: 'https://github.com/susguzman/add-ons-example.git'
+targetRevision: HEAD
+region: ''
+account: ''
+clusterName: ''
+
+# AWS Load Balancer Controller Values
+awsLoadBalancerController:
+  enable: false
+  serviceAccountName:
+  podDisruptionBudget:
+    maxUnavailable: 1
