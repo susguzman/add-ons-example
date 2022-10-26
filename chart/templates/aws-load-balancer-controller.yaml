@@ -13,6 +13,8 @@ spec:
     path: add-ons/aws-load-balancer-controller
     targetRevision: irsa-wip
     helm:
+      valueFiles:
+      - values.yaml
       values: |
         aws-load-balancer-controller:
           clusterName: {{ .Values.clusterName }}
