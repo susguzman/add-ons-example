@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: {{ .Values.repoUrl }}
     path: add-ons/aws-load-balancer-controller
-    targetRevision: {{ .Values.targetRevision }}
+    targetRevision: irsa-wip
     helm:
       values: |
         aws-load-balancer-controller:
